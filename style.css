@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+/* main css */
+.content-middle{
+    width: 680px;
+    margin: 30px auto;
+}
+.main-div{
+    /* width: 680px;
+    margin: 30px auto; */
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 0 5px #d9d9d9;
+    padding: 10px;
+    border-radius: 10px;
+}
+.header-area{}
+.logo{
+
+    float: left;
+    background: #eeeeee ;
+    padding: 15px 29px;
+    border-radius: 10px 0 0 10px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 3px;
+}
+.logo img{}
+
+.header-right{
+    width: 76%;
+    float: left;
+
+}
+.header-top{
+    background: #007814 url(./img/flag.jpg) no-repeat scroll right bottom / 42% auto;
+    border-bottom: 1px solid #479e55;
+    padding: 7px 10px;
+    border-radius: 0 20px 0 0;
+}
+.header-top h2{
+    font-size: 20px;
+    color: #95e17d;
+}
+.header-middle{
+    background: #007814;
+    padding: 7px 10px;
+}
+.header-middle h2 {
+    font-size: 17px;
+    color: #fff;
+}
+.header-bottom{
+    background: #72b86f;
+    padding: 9px 10px;
+}
+.header-bottom h6 {
+    text-align: right;
+}
+.header-bottom h6 a {
+    color: #f2f2f2;
+}
+.header-bottom h6 a:hover {
+    color: rgb(111, 211, 111);
+}
+
+/* box form */
+.box-form{
+    width: 484px;
+    margin: 30px auto;
+    border:1px solid #848484;
+    padding: 60px 60px 20px 60px;
+}
+.form-list{
+   
+}
+.form-list .labels{
+    width: 28%;
+    float: left;
+}
+.labels label{
+    font-size: 12px;
+    font-weight: bold;
+}
+.form-list .input-div{
+   
+    width: 66%;
+    float: right;
+    margin-left: 20px;
+    display: inline-block;
+    transform: translate(0px, -6px);
+
+}
+select{
+    width: 100%;
+    border-style: none;
+    outline: none;
+    border: 1px solid #999999;
+    padding: 5px 10px;
+    background: #f4f0f2 ;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+input{
+    width: 100%;
+    border-style: none;
+    outline: none;
+    border: 1px solid #999999;
+    background: #f4f0f2 ;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.button{
+    text-align: right;
+}
+.button input{
+    width: 20%;
+    cursor: pointer;
+}
+.button input:hover{
+    background:#e7e4e6 ;
+    transition: .3s;
+}
+/* bottom content */
+.bottom-content{
+    
+  
+    background: #f2f2f2 ;
+    border-top: 5px solid #86c775;
+    border-radius: 0 0 10px 10px;
+
+}
+.copy-right{
+    width: 50%;
+}
+.copy-right p{
+    font-size: 10px;
+    font-weight: 100;
+    color: #666;
+    line-height: 65px;
+    padding: 0 10px;
+}
+
+.telitalk{
+    width: 50%;
+}
+.telitalk .text{
+    width: 50%;
+}
+.telitalk .text p{
+    font-size: 10px;
+    color: #666;
+    /* line-height: 53px; */
+    margin-top: 25px;
+    text-align: right;
+    margin-right: -46px;
+}
+.telitalk .telitalk-img{
+    width: 50%;
+    text-align: right;
+    padding: 5px 7px;
+}
+
+/* footer content */
+.footer-content{
+    margin-top: 12px;
+}
+.footer-content .google-store{
+    /* width: 22%; */
+}
+
+.footer-content .android{
+    /* width: 78%; */
+    text-align: center;
+    margin-left: 25px;
+}
+
+.android img {
+    width: 18px;
+    height: 20px;
+    margin-bottom: 0;
+}
+.android p{
+    font-size: 10px;
+}
